@@ -31,10 +31,10 @@ services:
         volumes:
             - mysqldata:/var/lib/mysql
         environment:
-            - "MARIADB_DATABASE=????????"
-            - "MARIADB_USER=????????"
-            - "MARIADB_PASSWORD=????????"
-            - "MARIADB_ROOT_PASSWORD=????????"
+            - "MARIADB_DATABASE=voting"
+            - "MARIADB_USER=root"
+            - "MARIADB_PASSWORD=secret"
+            - "MARIADB_ROOT_PASSWORD=secret"
 volumes:
     mysqldata:
 
